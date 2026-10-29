@@ -1,0 +1,20 @@
+DevOps Life Cycle and Tools
+
+The DevOps life cycle is the process teams use to plan, build, test, release, deploy, and maintain software. These stages repeat: teams monitor how an application works and use what they learn to plan improvements.
+
+Plan — Jira, Azure Dashboards
+Teams break a project into tasks, set priorities, and track progress. Jira and dashboard tools help everyone see what is planned, in progress, or completed.
+Code — Git, GitHub
+Developers write the application’s code and use Git to track changes. GitHub stores the project online, making it easier for developers to share code and review one another’s changes.
+Build — Maven, Gradle
+Build tools prepare the code to become an application. They can also download the libraries the application needs and run tasks such as compiling the code.
+Test — JUnit, Selenium
+JUnit checks whether small parts of a Java program work as expected. Selenium automates actions in a web browser, helping test how a website behaves for users.
+Release — Jenkins, GitHub Actions
+These tools automate repeated steps, such as building the application and running tests whenever code changes. If the steps succeed, the software can be prepared for release.
+Deploy — Docker, Kubernetes
+Docker packages an application with what it needs to run. Kubernetes helps deploy and manage containers, especially when an application uses many of them.
+Operate — Ansible
+After deployment, teams need to configure and maintain the computers running the application. Ansible automates these tasks so teams can apply consistent settings across multiple computers.
+Monitor — Grafana
+Teams monitor the application to check its health and performance. Grafana presents information such as response times and error rates in dashboards, helping teams notice problems and decide what to fix.
